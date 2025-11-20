@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "HomeWork one",
+        "body": "Consume ApiRest in a new project",
+        "color": "coral"
+    },
+    {
+        "id": 2,
+        "title": "Receta",
+        "body": "Esta es una nota para una receta de pasteles :)",
+        "color": "yellow"
+    },
+    {
+        "id": 3,
+        "title": "HomeWork two",
+        "body": "Save data in Room",
+        "color": "green"
+    }
+]
