@@ -1,7 +1,16 @@
-### ToDoApp — Vintage Tropical Notes
+🌴✨ ToDoApp — Vintage Tropical Notes 📝
 
-Una app de notas con estética vintage tropical y una arquitectura moderna de Android.
-Permite crear, guardar y gestionar ideas con una interfaz amigable y persistencia local.
+Una app de notas con estilo retro, colores exóticos y una experiencia limpia y moderna.
+
+<div align="center">
+
+📱 Android App · 🛠️ Kotlin + Jetpack Compose · ☁️ Sync JSON · 💾 Room DB
+
+<br>
+
+
+
+</div>
 
 ## ✨ Características
 
