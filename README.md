@@ -1,78 +1,75 @@
-🌴✨ ToDoApp — Vintage Tropical Notes 📝
+### ToDoApp — Vintage Tropical Notes
 
-Una app de notas con estilo retro, colores exóticos y una experiencia limpia y moderna.
+Una app de notas con estética vintage tropical y una arquitectura moderna de Android.
+Permite crear, guardar y gestionar ideas con una interfaz amigable y persistencia local.
 
-<div align="center">
+## ✨ Características
 
-📱 Android App · 🛠️ Kotlin + Jetpack Compose · ☁️ Sync JSON · 💾 Room DB
+- Crear, editar y eliminar notas
 
-<br>
+- Persistencia con Room Database
 
+- Descarga de notas iniciales desde GitHub JSON
 
+- Arquitectura MVVM + StateFlow
 
-</div>
-🌺 ¿Qué es ToDoApp?
+- UI con Jetpack Compose
 
-Una aplicación diseñada para escribir ideas, guardar recordatorios y organizar la vida diaria con una estética cálida y retro.
-La app funciona sin conexión, y si hay internet descarga notas iniciales desde GitHub al instalarse.
+- Estilo visual vintage con colores exóticos y vibrantes
 
-✨ Porque tomar notas también puede sentirse como estar en vacaciones 🌞🍍
+## 🛠️ Tecnologías usadas
+1. Capa	Tecnología
+2. Lenguaje	Kotlin
+3. UI	Jetpack Compose
+4. Base de Datos	Room
+5. Networking	Retrofit + Gson
+6. Arquitectura	MVVM
+7. Inyección de dependencias	Hilt
 
-🧩 Funcionalidades
-
-✔ Crear, guardar y gestionar notas
-✔ Persistencia local con Room Database
-✔ Descarga de dataset inicial vía Retrofit + Gson
-✔ Arquitectura moderna MVVM + StateFlow
-✔ UI declarativa con Jetpack Compose
-✔ Estética vintage tropical
-
-🛠️ Stack Tecnológico
-Capa	Tecnología
-Lenguaje	Kotlin
-UI	Jetpack Compose
-Persistencia local	Room
-Networking	Retrofit + Gson
-Arquitectura	MVVM
-DI	Hilt
-🧱 Arquitectura
-
-Estructura limpia para escalabilidad y testeo:
-
+## 📐 Arquitectura del Proyecto
 📂 data/
- ├─ local/
  ├─ remote/
+ ├─ local/
  ├─ repository/
 📂 domain/
  ├─ model/
  ├─ repository/
 📂 ui/
- ├─ components/
  ├─ screens/
+ ├─ components/
 📂 di/
 
-🧪 Próximas mejoras
+##🚀 Estado del proyecto
 
-🔍 Búsqueda y filtrado de notas
+*En desarrollo, con funcionalidades base ya implementadas.*
 
-🎨 Paleta personalizada seleccionable
+**Próximas mejoras:**
 
-🔄 Sincronización remota bidireccional
+- Búsqueda y filtros de notas
 
-🧑‍💻 Tests unitarios y UI tests
+- Personalización visual avanzada
 
-📷 Capturas (Próximamente)
-<div align="center"> ✨ Coming soon... ✨ </div>
-📌 Ícono
+- Sincronización remota bidireccional
 
-🖌️ Ícono hecho a medida, estética vintage + lápiz clásico
-(Se añadirá aquí en cuanto esté finalizado para producción)
+- Tests unitarios y de UI
 
-🤝 Contribuciones
+## 🎨 Diseño
 
-¡Todas las ideas son bienvenidas!
-Puedes abrir issues o enviar PRs directamente.
+Icono estilo papel antiguo + lápiz clásico
+(Se agregará imagen pronto)
 
-📜 Licencia
+## 🤝 Contribuciones
 
-Este proyecto está bajo licencia MIT — eres libre de usarlo con atribución.
+Las sugerencias son bienvenidas:
+
+Abre un issue
+
+Envía un pull request
+
+O simplemente comparte ideas ✨
+
+### 📜 Licencia
+
+**Este proyecto está bajo licencia MIT.**
+
+🌞 “Toma nota de lo que importa”
