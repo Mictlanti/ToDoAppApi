@@ -1,54 +1,78 @@
-# ToDoAppApi
-📝 ToDoApp — Aplicación de Notas
+🌴✨ ToDoApp — Vintage Tropical Notes 📝
 
-ToDoApp es una aplicación móvil desarrollada en Kotlin utilizando arquitectura moderna de Android. Permite crear, visualizar y gestionar notas de manera sencilla, con un enfoque en diseño agradable y accesibilidad.
-Ideal para registrar ideas, pendientes y recordatorios del día a día.
+Una app de notas con estilo retro, colores exóticos y una experiencia limpia y moderna.
 
-✨ Características principales
+<div align="center">
 
-📌 Crear, editar y eliminar notas
+📱 Android App · 🛠️ Kotlin + Jetpack Compose · ☁️ Sync JSON · 💾 Room DB
 
-☁️ Sincronización inicial mediante descarga de notas desde GitHub en formato JSON
+<br>
 
-💾 Persistencia offline con Room Database
 
-🎨 UI moderna con Jetpack Compose
 
-🔄 Arquitectura basada en MVVM + StateFlow
+</div>
+🌺 ¿Qué es ToDoApp?
 
-💉 Inyección de dependencias con Hilt
+Una aplicación diseñada para escribir ideas, guardar recordatorios y organizar la vida diaria con una estética cálida y retro.
+La app funciona sin conexión, y si hay internet descarga notas iniciales desde GitHub al instalarse.
 
-🌙 Estilo visual vintage tropical con colores exóticos
+✨ Porque tomar notas también puede sentirse como estar en vacaciones 🌞🍍
 
-🛠️ Tecnologías utilizadas
-Componente	Tecnología
+🧩 Funcionalidades
+
+✔ Crear, guardar y gestionar notas
+✔ Persistencia local con Room Database
+✔ Descarga de dataset inicial vía Retrofit + Gson
+✔ Arquitectura moderna MVVM + StateFlow
+✔ UI declarativa con Jetpack Compose
+✔ Estética vintage tropical
+
+🛠️ Stack Tecnológico
+Capa	Tecnología
 Lenguaje	Kotlin
 UI	Jetpack Compose
-Arquitectura	MVVM + ViewModel + StateFlow
-Base de Datos Local	Room
-Comunicación API	Retrofit + Gson
-Inyección de Dependencias	Hilt
-🚀 Estado del Proyecto
+Persistencia local	Room
+Networking	Retrofit + Gson
+Arquitectura	MVVM
+DI	Hilt
+🧱 Arquitectura
 
-✔ Versión inicial funcional
-🔄 En desarrollo continuo con nuevas funcionalidades próximas:
+Estructura limpia para escalabilidad y testeo:
 
-Sistema de etiquetas y colores personalizados
+📂 data/
+ ├─ local/
+ ├─ remote/
+ ├─ repository/
+📂 domain/
+ ├─ model/
+ ├─ repository/
+📂 ui/
+ ├─ components/
+ ├─ screens/
+📂 di/
 
-Ordenamiento y búsqueda de notas
+🧪 Próximas mejoras
 
-Sincronización remota mejorada
+🔍 Búsqueda y filtrado de notas
 
-📂 Estructura del proyecto (Resumen)
+🎨 Paleta personalizada seleccionable
 
-data/ — manejo de datos, DAOs, entidades, data sources
+🔄 Sincronización remota bidireccional
 
-domain/ — modelos y repositorios
+🧑‍💻 Tests unitarios y UI tests
 
-ui/ — pantallas, componentes y estado de UI
+📷 Capturas (Próximamente)
+<div align="center"> ✨ Coming soon... ✨ </div>
+📌 Ícono
 
-🧑‍🎨 Diseño del ícono
+🖌️ Ícono hecho a medida, estética vintage + lápiz clásico
+(Se añadirá aquí en cuanto esté finalizado para producción)
 
-Ícono diseñado especialmente para la app:
-📌 Estilo papel antiguo + lápiz clásico + toque tropical
-(Se actualizará aquí cuando se publique en Play Store)
+🤝 Contribuciones
+
+¡Todas las ideas son bienvenidas!
+Puedes abrir issues o enviar PRs directamente.
+
+📜 Licencia
+
+Este proyecto está bajo licencia MIT — eres libre de usarlo con atribución.
