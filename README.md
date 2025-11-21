@@ -35,7 +35,6 @@ Una app de notas con estilo retro, colores exóticos y una experiencia limpia y 
 6. Arquitectura	MVVM
 7. Inyección de dependencias	Hilt
 
-```
 ## 📐 Estructura del proyecto (Resumen)
 
 - data/ — manejo de datos, DAOs, entidades, data sources
@@ -43,7 +42,6 @@ Una app de notas con estilo retro, colores exóticos y una experiencia limpia y 
 - domain/ — modelos y repositorios
 
 - ui/ — pantallas, componentes y estado de UI
-````
 
 ## 🚀 Estado del proyecto
 
@@ -58,6 +56,12 @@ Una app de notas con estilo retro, colores exóticos y una experiencia limpia y 
 - Sincronización remota bidireccional
 
 - Tests unitarios y de UI
+
+## Clona el proyecto
+- Ejecuta en la terminal de Android Studio:
+```
+git clone https://github.com/Mictlanti/ToDoAppApi.git
+```
 
 ## 🎨 Diseño
 
