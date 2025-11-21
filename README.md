@@ -34,7 +34,7 @@ Permite crear, guardar y gestionar ideas con una interfaz amigable y persistenci
 
 - ui/ — pantallas, componentes y estado de UI
 
-##🚀 Estado del proyecto
+## 🚀 Estado del proyecto
 
 *En desarrollo, con funcionalidades base ya implementadas.*
 
