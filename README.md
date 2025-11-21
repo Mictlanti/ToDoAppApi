@@ -26,18 +26,13 @@ Permite crear, guardar y gestionar ideas con una interfaz amigable y persistenci
 6. Arquitectura	MVVM
 7. Inyección de dependencias	Hilt
 
-## 📐 Arquitectura del Proyecto
-📂 data/
- ├─ remote/
- ├─ local/
- ├─ repository/
-📂 domain/
- ├─ model/
- ├─ repository/
-📂 ui/
- ├─ screens/
- ├─ components/
-📂 di/
+## 📐 Estructura del proyecto (Resumen)
+
+- data/ — manejo de datos, DAOs, entidades, data sources
+
+- domain/ — modelos y repositorios
+
+- ui/ — pantallas, componentes y estado de UI
 
 ##🚀 Estado del proyecto
 
