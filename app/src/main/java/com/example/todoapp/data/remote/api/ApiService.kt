@@ -10,7 +10,7 @@ import retrofit2.http.Path
 
 interface ApiService {
 
-    @GET("Mictlanti/ToDoApp/refs/heads/other/notes/notesJson.json")
+    @GET("Mictlanti/ToDoAppGsons/refs/heads/main/NoteGson")
     suspend fun getNotes() : List<NoteDto>
 
     //Endpoint hipotético para la escritura en API
